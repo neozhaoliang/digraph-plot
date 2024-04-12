@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.patches import Circle, Shadow, FancyArrowPatch
-from matplotlib.bezier import BezierSegment
 
 plt.rc("font", size=16)
 plt.rc("font", family="Courier")
@@ -9,7 +8,7 @@ plt.rc("text", usetex=True)
 
 
 SHADOW_DIR = -45
-SHADOW_OFFSET = 0.04
+SHADOW_OFFSET = 0.05
 SHADOW_COLOR = "gray"
 DEFAULT_ARROW_STYLE = dict(
     arrowstyle="-|>,head_width=0.12,head_length=0.4",
