@@ -4,6 +4,6 @@ This is an ongoing project. The goal is to use matplotlib to draw beautiful fini
 
 Example:
 
-<p align="center">
-![](automata.png)
-</p>p
+<div align="center">
+![](./automata.png)
+</div>
