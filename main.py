@@ -9,7 +9,7 @@ plt.rc("text", usetex=True)
 
 
 SHADOW_DIR = -45
-SHADOW_OFFSET = 0.085
+SHADOW_OFFSET = 0.04
 SHADOW_COLOR = "gray"
 DEFAULT_ARROW_STYLE = dict(
     arrowstyle="-|>,head_width=0.12,head_length=0.4",
@@ -68,7 +68,14 @@ class Node:
                 draw_circle(self.xy, self.radius, fc=color, ec="k", lw=1)
             else:
                 draw_circle(self.xy, self.radius, fc="w", ec="k", lw=1)
-                draw_circle(self.xy, self.radius * 0.85, fc=color, ec="k", lw=1)
+                draw_circle(
+                    self.xy,
+                    self.radius * 0.85,
+                    fc=color,
+                    ec="k",
+                    lw=1,
+                    with_shadow=False,
+                )
 
         if self.label:
             plt.text(*self.xy, self.label, ha="center", va="center", **kwargs)
