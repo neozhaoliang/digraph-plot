@@ -5,5 +5,7 @@ This is an ongoing project. The goal is to use matplotlib to draw beautiful fini
 Example:
 
 <div align="center">
+
 ![](./automata.png)
+
 </div>
