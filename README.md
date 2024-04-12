@@ -1,2 +1,9 @@
 # digraph-plot
-Plot digraph (mainly for drawing automata) with matplotlib
+
+This is an ongoing project. The goal is to use matplotlib to draw beautiful finite state machine images. Currently, text labels still need to be manually positioned by the user (because I haven't found a suitable method for calculating the midpoint of a path yet).
+
+Example:
+
+<p align="center">
+![](automata.png)
+</p>p
